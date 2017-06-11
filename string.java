@@ -6,7 +6,7 @@ class string
        Scanner in=new Scanner(System.in);
        String str1=in.nextLine();
        int rev=Integer.parseInt(str1);
-       System.out.print((str1)); 
+       System.out.print((rev)); 
       
       
     }
