@@ -11,9 +11,11 @@ class mul
        }
       public static String mur(String a,String b)
        {
-           int d=Integer.parseInt(a);
-           int s=Integer.parseInt(b);
-           int z=d*s;
+           long d=Long.parseLong(a);
+           long s=Long.parseLong(b);
+           long z=0;
+           if(d>0 && s>0)
+             z=d*s;
            String y=String.valueOf(z);
            return y;
        }
